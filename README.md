@@ -1,52 +1,51 @@
-# Python Template
+[배경] 
+한솔데코는 끊임없는 도전을 통해 성장을 모색하고자 하는 기치를 갖고, 공동 주택 내 실내 마감재 공사를 수행하며 시트와 마루, 벽면, 도배 등 건축에서 빼놓을 수 없는 핵심적인 자재를 유통하고 있습니다.
 
-Template repository for Python project
+실내 마감재는 건축물 내부 공간의 인테리어와 쾌적한 생활을 좌우하는 만큼, 제품 결함에 대한 꼼꼼한 관리 역시 매우 중요합니다.
+
+이를 위해 한솔데코에서는 AI 기술을 활용하여 하자를 판단하고 빠르게 대처할 수 있는 혁신적인 방안을 모색하고자 합니다.
+
+이미지 데이터를 기반으로 도배의 하자 유형을 정확하게 분류해 낼 수 있는 AI 모델을 개발하세요!
+
+
+
+[주제]
+도배 하자의 유형 분류 AI 모델 개발
+
+
+
+[설명]
+총 19가지의 도배 하자 유형을 분류하는 AI 모델을 개발해야합니다.
+
+
+[주최 / 주관]
+주최: 한솔데코
+주관: 데이콘
 
 ## 🚀 Features
+평가 산식 : Weighted F1 Score
+Public score : 전체 테스트 데이터 중 사전 샘플링된 40%
+Private score : 전체 테스트 데이터
 
-### Code Quality
+Dataset Info.
 
-- black
-- isort
-- flake8
-- editorconfig
+train [폴더]
+19개의 Class 폴더 내 png 파일 존재
 
-### Github Actions
 
-- [release-drafter](https://github.com/release-drafter/release-drafter)
-- Check code quality when PR (`black`, `isort`, `flake8`)
+test [폴더]
+평가용 데이터셋
+000.png ~ 791.png
 
-### Other
 
-- Commit template
-- Issue, PR Template
-- Add dummy test code
-- Auto-close stale issue
+test.csv [파일]
+id : 평가 샘플 고유 id
+img_path : 평가 샘플의 이미지 파일 경로
 
-## 📄 Guideline
 
-### 1. Setup
+sample_submission.csv [제출양식]
+id : 평가 샘플 고유 id
+label : 예측한 도배 하자 Class
 
-- precommit, style, pytest, gitmessage, requirements
 
-```bash
-make setup
-```
-
-### 2. Writes your own code! ✏️
-
-Don't forget to update the `README`!
-
-## ⬆️ Contributing
-
-### 1. Test
-
-```bash
-make test
-```
-
-### 2. Execute code formatting & Check lint
-
-```bash
-make style
 ```
