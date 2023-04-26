@@ -1,0 +1,8 @@
+numpy>=1.16.5
+pillow!=7.1.0,!=7.1.1,>=4.3.0
+PyWavelets>=1.1.1
+scipy>=1.0.1
+tifffile>=2019.7.26
+opencv-python
+scikit-image
+imgaug
