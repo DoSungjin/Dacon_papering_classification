@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-15T07:21:31.230393",
+    "startedAt": "2023-05-15T07:21:24.088862",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/DoSungjin/Dacon_papering_classification.git",
+        "commit": "047ce2cd3c21a8b51b30e3c6d1cbe19271267096"
+    },
+    "email": "100894816+DoSungjin@users.noreply.github.com",
+    "root": "C:/Users/DoSungjin/Documents/GitHub/Dacon_papering_classification",
+    "host": "DESKTOP-HIG0S9Q",
+    "username": "DoSungjin",
+    "executable": "c:\\Users\\DoSungjin\\anaconda3\\envs\\gpu-env\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2304.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2304.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 202.92773056030273,
+        "used": 171.69995880126953
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.70849609375
+    }
+}
